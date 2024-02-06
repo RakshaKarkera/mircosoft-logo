@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+.main-heading {
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+.microsoft-main-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px; /* Add some margin to separate the heading and the logo */
+}
+
+.microsoft-main-div > * {
+    width: 100px;
+    height: 100px;
+}
+
+.micro-red-area {
+    background: #f65314;
+}
+
+.micro-green-area {
+    background: #7cbb00;
+}
+
+.micro-blue-area {
+    background: #00a1f1;
+}
+
+.micro-yellow-area {
+    background: #ffbb00;
+}
+
